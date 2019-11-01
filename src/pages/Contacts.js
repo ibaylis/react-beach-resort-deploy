@@ -3,10 +3,10 @@ import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import { Link } from "react-router-dom";
 
-const Rooms = () => {
+const Contacts = () => {
     return (
         <Hero hero="roomsHero">
-            <Banner title="our rooms">
+            <Banner title="Contact us">
                 <Link to="/" className="btn-primary">
                     Return Home
                 </Link>
@@ -15,4 +15,4 @@ const Rooms = () => {
     )
 }
 
-export default Rooms;
+export default Contacts;
